@@ -15,7 +15,7 @@ Use this page as the entry point for generated and maintained project documentat
 | [project-source-tree.md](project-source-tree.md) | Repository layout and where to change code |
 | [templates/cursor-rules/README.md](templates/cursor-rules/README.md) | PRD/code-gen scripts (`run-prd.ps1`, `run-dev.ps1`), `prompt-prefix.md` |
 
-**Diagram:** High-level workflow image: [base-agentflow-diagram.png](../base-agentflow-diagram.png) (repository root).
+**Diagram:** High-level workflow image: [base-agentflow-diagram.webp](../base-agentflow-diagram.webp) (repository root).
 
 **Configuration schema:** `AgentFlow.Cli/appsettings.template.json` and `AgentFlow.Shared/Configuration/AppConfiguration.cs`.
 

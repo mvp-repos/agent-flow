@@ -17,7 +17,7 @@ AgentFlow/
 ├── AgentFlow.slnx
 ├── Directory.Packages.props
 ├── LICENSE
-├── base-agentflow-diagram.png                      # Workflow flowchart (reference image)
+├── base-agentflow-diagram.webp                      # Workflow flowchart (reference image)
 ├── CONTRIBUTING.md
 ├── README.md
 ├── SECURITY.md
