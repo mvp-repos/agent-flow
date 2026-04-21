@@ -63,6 +63,9 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# AgentFlow — local config (PAT, paths); use appsettings.template.json as the committed template
+**/appsettings.json
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
