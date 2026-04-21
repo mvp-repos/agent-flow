@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/project-overview-and-future-developments.md" />
+    <File Path="docs/project-rules.md" />
+    <File Path="docs/project-source-tree.md" />
+  </Folder>
+  <Folder Name="/docs/templates/" />
+  <Folder Name="/docs/templates/cursor-rules/">
+    <File Path="docs/templates/cursor-rules/prompt-prefix.md" />
+    <File Path="docs/templates/cursor-rules/README.md" />
+    <File Path="docs/templates/cursor-rules/run-dev.cmd" />
+    <File Path="docs/templates/cursor-rules/run-dev.ps1" />
+    <File Path="docs/templates/cursor-rules/run-prd.cmd" />
+    <File Path="docs/templates/cursor-rules/run-prd.ps1" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="CONTRIBUTING.md" />
+    <File Path="Directory.Packages.props" />
+    <File Path="README.md" />
+    <File Path="SECURITY.md" />
+  </Folder>
+  <Project Path="AgentFlow.Adapters/AgentFlow.Adapters.csproj" Id="fc43ad6c-a56b-48d6-a278-c3b90c6c432f" />
+  <Project Path="AgentFlow.Cli/AgentFlow.Cli.csproj" Id="b2477f00-0cba-4947-9db0-59bbbeab71ff" />
+  <Project Path="AgentFlow.Core/AgentFlow.Core.csproj" />
+  <Project Path="AgentFlow.Shared/AgentFlow.Shared.csproj" Id="0e63016a-83bb-4feb-9b6a-3a805b72c7ad" />
+</Solution>

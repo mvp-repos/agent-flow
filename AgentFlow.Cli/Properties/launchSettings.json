@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AgentFlow.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "run --provider ado --workitem 15023"
+    }
+  }
+}

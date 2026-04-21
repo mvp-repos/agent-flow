@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AgentFlow: run (fake, dry-run)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/AgentFlow.Cli/bin/Debug/net10.0/AgentFlow.Cli.dll",
+      "args": ["run", "--provider", "fake", "--workitem", "123", "--dry-run"],
+      "cwd": "${workspaceFolder}/AgentFlow.Cli/bin/Debug/net10.0",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "AgentFlow: run (ADO, dry-run)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/AgentFlow.Cli/bin/Debug/net10.0/AgentFlow.Cli.dll",
+      "args": ["run", "--provider", "ado", "--workitem", "12345", "--dry-run"],
+      "cwd": "${workspaceFolder}/AgentFlow.Cli/bin/Debug/net10.0",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "AgentFlow: init",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/AgentFlow.Cli/bin/Debug/net10.0/AgentFlow.Cli.dll",
+      "args": ["init"],
+      "cwd": "${workspaceFolder}/AgentFlow.Cli/bin/Debug/net10.0",
+      "console": "integratedTerminal"
+    }
+  ]
+}
