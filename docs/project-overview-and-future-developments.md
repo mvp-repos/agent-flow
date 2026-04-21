@@ -137,7 +137,7 @@ Validation: `ConfigurationValidator.ValidateOrThrow` when running with provider 
 
 ## 7. Intended Workflow and Current Coverage
 
-**Workflow diagram:** The full workflow (intake, clarity gate, repo selection, branch, PRD/draft, checks, human review, approval, commit, push, PR) is documented in the flowchart image in the repository root (`agentflow.png`). It aligns with the state machine (Section 4) and the implementation in `WorkflowEngine.cs`. The "next steps" in Section 8 follow the same order (draft → checks → approval → PR).
+**Workflow diagram:** The full workflow (intake, clarity gate, repo selection, branch, PRD/draft, checks, human review, approval, commit, push, PR) is documented in the flowchart image in the repository root (`base-agentflow-diagram.png`). It aligns with the state machine (Section 4) and the implementation in `WorkflowEngine.cs`. The "next steps" in Section 8 follow the same order (draft → checks → approval → PR).
 
 The target “task-to-PR” flow includes:
 
@@ -202,7 +202,7 @@ Remaining gaps to address in **future developments** (see Section 8).
 
 ## 9. Document and Config References
 
-- **Workflow diagram:** Flowchart image in the repository root (`agentflow.png`) shows intake → approval → PR → done. Keep it aligned with `RunState.cs` and `WorkflowEngine.cs`.
+- **Workflow diagram:** Flowchart image in the repository root (`base-agentflow-diagram.png`) shows intake → approval → PR → done. Keep it aligned with `RunState.cs` and `WorkflowEngine.cs`.
 - **Project source tree:** Folder and file layout for navigating the codebase: **[docs/project-source-tree.md](project-source-tree.md)**.
 - **Project rules:** Branch creation policy, commit/code conventions, approval, config, and environment rules are in **[docs/project-rules.md](project-rules.md)**. Update that doc when adding or changing rules.
 - **Architecture / config / guardrails:** To be expanded in `docs/` (e.g. `architecture.md`, `config.md`, `guardrails.md`) as the project grows.
@@ -234,7 +234,7 @@ Remaining gaps to address in **future developments** (see Section 8).
 | DI                               | `AgentFlow.Cli/DI/DependencyInjection.cs`                                                                                                               |
 | Workflow run log (CLI)           | `AgentFlow.Cli/Logging/SerilogWorkflowRunLog.cs`, `SerilogWorkflowRunLogFactory.cs`; abstractions in `AgentFlow.Core/Abstractions/IWorkflowRunLog*.cs`  |
 | CLI → engine flow (doc)          | [docs/application-flow.md](application-flow.md)                                                                                                         |
-| Workflow diagram                 | Flowchart image in repo root (`agentflow.png`)                                                                                                          |
+| Workflow diagram                 | Flowchart image in repo root (`base-agentflow-diagram.png`)                                                                                               |
 | Project source tree              | [docs/project-source-tree.md](project-source-tree.md)                                                                                                   |
 | Project rules                    | [docs/project-rules.md](project-rules.md)                                                                                                               |
 

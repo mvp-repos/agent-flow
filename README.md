@@ -40,7 +40,7 @@ Read this before you roll AgentFlow out to a team or pipeline.
 
 ## Overview and workflow
 
-Reference diagram image: [agentflow.png](agentflow.png).
+Reference diagram image: [base-agentflow-diagram.png](base-agentflow-diagram.png).
 
 **At a glance:** Load work item, **eligibility + clarity** gates, clone **BMAD** branch, **PRD**, optional **PRD approval**, optional **code gen**, **dotnet test**, **dotnet build**, post **diff**, **final approval**, then **commit / push / PR**. Roadmap items are in [docs/project-overview-and-future-developments.md](docs/project-overview-and-future-developments.md) section 8.
 
