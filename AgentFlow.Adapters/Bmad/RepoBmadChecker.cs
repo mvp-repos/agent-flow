@@ -6,7 +6,7 @@ namespace AgentFlow.Adapters.Bmad
     /// Checks whether BMAD is installed <em>in the repository</em> by looking for the standard BMAD folder structure.
     /// BMAD is not an external tool; it is installed inside the repo via <c>npx bmad-method install</c>, which creates
     /// <c>_bmad/</c> (with <c>bmm/</c> method module) and <c>_bmad-output/</c>. See
-    /// <see href="https://docs.bmad-method.org/how-to/installation/install-bmad/">BMAD installation</see> and the CIS-Portfolio wiki.
+    /// <see href="https://docs.bmad-method.org/how-to/installation/install-bmad/">BMAD installation</see>.
     /// </summary>
     public sealed class RepoBmadChecker : IBmadChecker
     {

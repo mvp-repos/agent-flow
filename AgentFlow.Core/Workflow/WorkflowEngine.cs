@@ -605,7 +605,7 @@ namespace AgentFlow.Core.Workflow
                     var runPaused = run with { State = RunState.WaitingForInfo, UpdatedAt = DateTimeOffset.UtcNow, Message = "BMAD not installed; pausing" };
                     await PauseAndNotifyAsync(
                         workItemId,
-                        "Automation paused: BMAD is required in the repository but not installed.\n\nBMAD is installed **in the repository** (not as an external tool). From the repo root, run:\n\n`npx bmad-method install`\n\nThis creates the `_bmad/` folder and method module. Then re-run the workflow. See the [CIS-Portfolio BMAD wiki](https://dev.azure.com/CIS-Inc/CIS-Portfolio/_wiki/wikis/CIS-Portfolio.wiki/6/bmad) or [BMAD installation docs](https://docs.bmad-method.org/how-to/installation/install-bmad/).",
+                        "Automation paused: BMAD is required in the repository but not installed.\n\nBMAD is installed **in the repository** (not as an external tool). From the repo root, run:\n\n`npx bmad-method install`\n\nThis creates the `_bmad/` folder and method module. Then re-run the workflow. See the [BMAD installation docs](https://docs.bmad-method.org/how-to/installation/install-bmad/).",
                         $"[AgentFlow] Paused work item {workItemId} (install BMAD in repo)",
                         "BMAD must be installed in the repository. Run: npx bmad-method install from the repo root, then re-run.",
                         ct);

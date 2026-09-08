@@ -100,7 +100,7 @@ Rules for how branches are named and which base branch is used. Implemented in `
 
 - **Shell:** Default environment uses **Windows PowerShell**. Do not use `&&` for chaining commands; use `;` or separate commands.
 - **Paths:** Prefer backslashes for Windows paths in config; quote paths that contain spaces.
-- **Azure DevOps:** When using ADO MCP or project context, assume project **“CIS-Portfolio”** unless overridden by config or context.
+- **Azure DevOps:** Do not hardcode an organization or project. Use `AgentFlow:AzureDevOps:OrganizationUrl` and `AgentFlow:AzureDevOps:Project` from config (or the Azure DevOps context supplied in the current session). Do not commit company ADO org/project URLs in this repository.
 
 ---
 
